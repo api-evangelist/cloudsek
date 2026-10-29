@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cloudsek is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/cloudsek
+CloudSEK provides predictive attack path intelligence, helping security teams anticipate and disrupt cyber threats across digital risk, threat intelligence, external attack surface, AI systems, and third‑party ecosystems. The platform offers real‑time risk scoring, breach simulations, and actionable insights to prioritize defenses and reduce attack surface exposure.
+
+**Areas:** Security · Threat Intelligence · Attack Path · Predictive Analytics · Cyber Risk
+
+## Cloudsek on APIs.io
+
+Everything profiled for Cloudsek is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cloudsek/](https://apis.io/providers/cloudsek/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [CloudSEK API](https://apis.io/apis/cloudsek/cloudsek-api-2/) — CloudSEK API provides endpoints for alerts, incidents, events, and related security data as documented in the API reference.
+- [Cloudsek Bulk API](https://apis.io/apis/cloudsek/cloudsek-bulk-api/) — The Bulk API from Cloudsek — 1 operation(s) for bulk.
+- [Cloudsek Comments API](https://apis.io/apis/cloudsek/cloudsek-comments-api/) — The Comments API from Cloudsek — 1 operation(s) for comments.
+- [Cloudsek Events API](https://apis.io/apis/cloudsek/cloudsek-events-api/) — The Events API from Cloudsek — 2 operation(s) for events.
+- [Cloudsek Incidents API](https://apis.io/apis/cloudsek/cloudsek-incidents-api/) — The Incidents API from Cloudsek — 5 operation(s) for incidents.
+- [Cloudsek Jobs API](https://apis.io/apis/cloudsek/cloudsek-jobs-api/) — The Jobs API from Cloudsek — 1 operation(s) for jobs.
+- [Cloudsek Snapshot API](https://apis.io/apis/cloudsek/cloudsek-snapshot-api/) — The Snapshot API from Cloudsek — 1 operation(s) for snapshot.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetIncidentsAlertsResponse](https://apis.io/schemas/cloudsek/cloudsek-get-incidents-alerts-response/)
+- [GetIncidentsHistoricAlertsResponse](https://apis.io/schemas/cloudsek/cloudsek-get-incidents-historic-alerts-response/)
+- [GetV2IncidentsAlertsResponse](https://apis.io/schemas/cloudsek/cloudsek-get-v2-incidents-alerts-response/)
+- [PatchV2IncidentsIdRequest](https://apis.io/schemas/cloudsek/cloudsek-patch-v2-incidents-id-request/)
+- [PatchV2IncidentsIdResponse](https://apis.io/schemas/cloudsek/cloudsek-patch-v2-incidents-id-response/)
+- [PostV2V2IdBulkResponse](https://apis.io/schemas/cloudsek/cloudsek-post-v2-v2-id-bulk-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Cloudsek Context](https://apis.io/jsonld/cloudsek/cloudsek-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Cloudsek API Rules](https://apis.io/rules/cloudsek/cloudsek-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cloudsek Authentication](https://apis.io/security/cloudsek/cloudsek-authentication/)
+- [Cloudsek Domain Security](https://apis.io/security/cloudsek/cloudsek-domain-security/)
+- [Cloudsek Trust Center](https://apis.io/security/cloudsek/cloudsek-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.cloudsek.com)
+- [Getting started](https://api.cloudsek.com/docs/intro)
+- [Support](https://support.cloudsek.com/s/)
+- [Blog](https://www.cloudsek.com/blog)
+- [Security](https://www.cloudsek.com/tag/security)
+- [Compliance](https://trust.cloudsek.com/)
+- [Privacy policy](https://cloudsek.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 29.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 22.5 |
+| Contract governance | 22.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 26.3 |
+
+**Agent readiness 28.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cloudsek/](https://apis.io/providers/cloudsek/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cloudsek: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cloudsek/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
